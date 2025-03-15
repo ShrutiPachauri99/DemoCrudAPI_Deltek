@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35728.132 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactsMasterWebAPI", "ContactsMasterWebAPI.csproj", "{A65F6DC8-9C22-42A9-8474-8B68F10E19CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactsMasterLogic", "..\ContactsMasterLogic\ContactsMasterLogic.csproj", "{7CDD4D83-020E-407A-BB93-2AC2F5071007}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactsMasterData", "..\ContactsMasterData\ContactsMasterData.csproj", "{69CFF1A4-DAD3-4FCD-BB45-360D2227A7C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactsMasterInfra", "..\ContactsMasterInfra\ContactsMasterInfra.csproj", "{16139605-5151-4069-B23C-D1943ED9DDD7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A65F6DC8-9C22-42A9-8474-8B68F10E19CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A65F6DC8-9C22-42A9-8474-8B68F10E19CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A65F6DC8-9C22-42A9-8474-8B68F10E19CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A65F6DC8-9C22-42A9-8474-8B68F10E19CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CDD4D83-020E-407A-BB93-2AC2F5071007}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CDD4D83-020E-407A-BB93-2AC2F5071007}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CDD4D83-020E-407A-BB93-2AC2F5071007}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CDD4D83-020E-407A-BB93-2AC2F5071007}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69CFF1A4-DAD3-4FCD-BB45-360D2227A7C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69CFF1A4-DAD3-4FCD-BB45-360D2227A7C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69CFF1A4-DAD3-4FCD-BB45-360D2227A7C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69CFF1A4-DAD3-4FCD-BB45-360D2227A7C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16139605-5151-4069-B23C-D1943ED9DDD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16139605-5151-4069-B23C-D1943ED9DDD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16139605-5151-4069-B23C-D1943ED9DDD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16139605-5151-4069-B23C-D1943ED9DDD7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

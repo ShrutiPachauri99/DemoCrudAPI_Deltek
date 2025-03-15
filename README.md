@@ -1,2 +1,2 @@
-# DemoCrudAPI_Deltek
-DemoCrudAPI_Deltek
+# CrupAPI_Deltek
+CrupAPI_Deltek
