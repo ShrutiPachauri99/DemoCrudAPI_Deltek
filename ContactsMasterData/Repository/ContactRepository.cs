@@ -31,7 +31,7 @@ namespace ContactsMasterData.Repository
 
         public async Task<List<Contact>> List()
         {
-            return await Context.Contacts.ToListAsync();
+            return await Context.Contacts.OrderByDescending(x=>x.ModifiedDateTime).ToListAsync();
         }
 
         public async Task<int> UpdateContact(Contact contact)

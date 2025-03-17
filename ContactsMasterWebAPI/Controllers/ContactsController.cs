@@ -90,7 +90,7 @@ namespace ContactsMasterWebAPI.Controllers
             if (contactViewModel == null)
             {
                 // If the request body is null, return a 400 Bad Request response
-                return BadRequest("Contact data is required.");
+                return BadRequest("Invalid contact data.");
             }
 
             // Call the business logic to update the contact
